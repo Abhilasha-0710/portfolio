@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhilasha Thakur | Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio of Abhilasha Thakur, a CDAC aspirant and developer passionate about creating meaningful web experiences.">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- Floating Floral Background -->
+    <div class="floral floral1">🌸</div>
+    <div class="floral floral2">🌿</div>
+    <div class="floral floral3">🌸</div>
+    <div class="floral floral4">🌿</div>
+    <div class="floral floral5">🌸</div>
+    <div class="floral floral6">🌿</div>
+    <div class="floral floral7">🌸</div>
+    <div class="floral floral8">🌿</div>
+
+    <!-- Header / Navigation -->
+    <header data-aos="fade-in">
+        <nav>
+            <h2 class="logo shine">Abhilasha</h2>
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-aos="fade-in">
+        <h1>Hi, I'm <span class="shine-text">Abhilasha Thakur</span> 🤍</h1>
+
+        <!-- Centered typing line -->
+        <p class="typing-wrapper">
+            <span id="typing"></span>
+        </p>
+
+        <a href="#contact" class="btn" data-aos="fade-in" data-aos-delay="200">Contact Me</a>
+        <a href="#" class="btn btn-download" data-aos="fade-in" data-aos-delay="300">Download CV</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-aos="fade-in">
+        <h2>About Me</h2>
+        <p>
+            A curious soul, a constant learner, and a creator in progress.
+            I love exploring ideas, interacting with people, communicating confidently,
+            and turning possibilities into results.
+            I’m a <b>CDAC aspirant</b> currently diving deep into the world of development and programming.
+            Tech inspires me because it gives the power to create something meaningful from nothing.
+            I’m still learning, still discovering, still improving — but unstoppable in effort and passion.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" data-aos="fade-in">
+        <h2>Skills & Tools</h2>
+        <p class="skills-intro">
+            I love experimenting with technology and expanding my toolbox every day. Not perfect,
+            but a fast learner and unstoppable in progress 🤍
+        </p>
+
+        <div class="skill-categories">
+            <div class="skill-box" data-aos="fade-in">✨ Languages<br>C, C++, Java, JavaScript</div>
+            <div class="skill-box" data-aos="fade-in">🎨 Frontend<br>HTML, CSS, Bootstrap, JavaScript</div>
+            <div class="skill-box" data-aos="fade-in">🧠 Backend<br>Learning Node.js, .Net, SpringBoot</div>
+            <div class="skill-box" data-aos="fade-in">🗃 Databases<br>MongoDB, MySQL, Firebase Firestore</div>
+            <div class="skill-box" data-aos="fade-in">⚙ Tools<br>Git, GitHub, VS Code, Postman</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" data-aos="fade-in">
+        <h2>Projects</h2>
+
+        <div class="project floating-card" data-aos="fade-in" data-aos-delay="150">
+            <img src="" alt="StreetBite App" class="project-img">
+            <h3>StreetBite</h3>
+            <p>
+                StreetBite is a web platform that helps users discover nearby street food vendors using real-time
+                location.
+                Vendors can register their stalls, upload menus and photos, update availability, and manage their
+                profiles, ratings and reviews, and navigate through an interactive map.
+                Built with Next.js, Spring Boot, Firebase Firestore, and Map APIs, StreetBite helps small food stalls
+                build a digital presence and helps users explore affordable, authentic street food.
+            </p>
+            <span>Tech Used: Next.js, Spring Boot, Firebase, MySQL, Map APIs</span>
+        </div>
+
+        <div class="project floating-card" data-aos="fade-in" data-aos-delay="200">
+            <img src="" alt="FlowerDoor Café" class="project-img">
+            <h3>FlowerDoor Café</h3>
+            <p>
+                A clean & modern café website UI/UX concept designed for brand identity and a seamless browsing
+                experience.
+            </p>
+            <span>Tech Used: HTML, CSS, JavaScript</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-aos="fade-in">
+        <h2>Contact</h2>
+        <p>Have a question or want to work together?</p>
+
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p style="margin-top: 20px;">
+            📧 Email:
+            <a href="mailto:abhilashasthakur2@gmail.com">abhilashasthakur2@gmail.com</a>
+        </p>
+        <p>
+            🐙 GitHub:
+            <a href="https://github.com/abhilasha-blossom">abhilasha-blossom</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-in">
+        <div class="quote-line">✿ ✿ ✿</div>
+        <p class="quote">“Bloom where you are planted — grow beautifully in your own time.”</p>
+        <p class="credit">© 2025 — Built with 🤍 by Abhilasha Thakur</p>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 900, easing: "ease", once: true });
+    </script>
+
+    <!-- Typing Animation Script -->
+    <script>
+        const text = ["Curious. Creative. Fearless Learner.", "Growing Every Day."];
+        let index = 0, charIndex = 0;
+        const typingElement = document.getElementById("typing");
+
+        function type() {
+            if (charIndex < text[index].length) {
+                typingElement.innerHTML += text[index].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, 90);
+            } else {
+                setTimeout(() => {
+                    charIndex = 0;
+                    typingElement.innerHTML = "";
+                    index = (index + 1) % text.length;
+                    type();
+                }, 1500);
+            }
+        }
+        type();
+    </script>
+
+</body>
+
+</html>
+---------------------------------------------------------------------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FAF7FF;
+    --text-color: #4A3E52;
+    --text-muted: #7A6E82;
+    --accent-color: #AC8EC9;
+    --accent-hover: #8C74A6;
+    --header-bg: rgba(250, 247, 255, 0.85);
+    --border-color: #DAD5E3;
+    --card-bg: #FFFFFF;
+    --shadow-color: rgba(172, 142, 201, 0.25);
+    --shadow-hover: rgba(172, 142, 201, 0.35);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Floating Floral */
+.floral {
+    position: fixed;
+    font-size: 26px;
+    opacity: 0.28;
+    animation: float 12s infinite linear;
+    pointer-events: none;
+    z-index: 1;
+}
+.floral1 { top: 20%; left: 6%; }
+.floral2 { top: 70%; left: 12%; }
+.floral3 { top: 35%; right: 8%; }
+.floral4 { bottom: 10%; right: 18%; }
+.floral5 { top: 10%; left: 28%; }
+.floral6 { top: 60%; left: 32%; }
+.floral7 { top: 45%; right: 28%; }
+.floral8 { bottom: 20%; right: 32%; }
+
+@keyframes float {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-16px) rotate(8deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* Navbar */
+header {
+    width: 100%;
+    padding: 16px 60px;
+    background: var(--header-bg);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 26px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+}
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    min-height: 100vh;
+    padding: 140px 60px 80px 60px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+}
+
+/* Center typing text */
+.typing-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#typing {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    min-width: 300px;
+    text-align: center;
+}
+/* Blinking cursor */
+#typing::after {
+    content: "|";
+    margin-left: 4px;
+    animation: blink 0.7s infinite;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+
+/* blinking ends at 100% */
+    100% { opacity: 0; }
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 11px 30px;
+    border-radius: 18px;
+    background: var(--accent-color);
+    color: #FAF7FF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px var(--shadow-hover);
+}
+.btn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-3px);
+}
+.btn-download {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+}
+
+/* Shine text */
+.shine-text, .shine {
+    background: linear-gradient(90deg, var(--text-color) 20%, var(--bg-color) 50%, var(--text-color) 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: shine 3s linear infinite;
+}
+@keyframes shine {
+    from { background-position: 200% center; }
+    to { background-position: -200% center; }
+}
+
+/* Sections */
+section {
+    padding: 80px 60px;
+    text-align: center;   /* 🩷 This centers all headings & section content */
+}
+
+/* About */
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--text-muted);
+}
+
+/* Skills */
+.skills-intro {
+    max-width: 720px;
+    margin: 0 auto 24px auto;
+}
+.skill-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.skill-box {
+    width: 230px;
+    padding: 18px 20px;
+    border-radius: 18px;
+    background: var(--card-bg);
+    border: 1.5px solid var(--border-color);
+    box-shadow: 0 6px 18px var(--shadow-color);
+    transition: 0.3s ease;
+}
+.skill-box:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 24px var(--shadow-hover);
+}
+
+/* Projects */
+.project {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 22px;
+    max-width: 680px;
+    margin: 18px auto;
+    border: 1.5px solid var(--border-color);
+    box-shadow: 0 10px 22px var(--shadow-color);
+}
+.project h3 {
+    color: var(--accent-color);
+}
+.project p {
+    color: var(--text-muted);
+}
+.project span {
+    font-size: 0.85rem;
+    color: #9C8AA8;
+}
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border-color);
+}
+.floating-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact */
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 14px;
+    border-radius: 12px;
+    border: 1.5px solid var(--border-color);
+    transition: 0.3s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 8px var(--shadow-color);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px 20px 30px 20px;
+}
+.quote-line {
+    font-size: 20px;
+    color: var(--accent-color);
+}
+.quote {
+    font-style: italic;
+}
+.credit {
+    font-size: 0.85rem;
+    color: #9C8AA8;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    header { padding: 14px 24px; }
+    .hero { padding: 130px 24px 60px 24px; }
+    section { padding: 70px 24px; }
+}
+@media (max-width: 600px) {
+    nav ul { gap: 16px; font-size: 0.8rem; }
+    .hero h1 { font-size: 2rem; }
+    .hero p { font-size: 0.95rem; }
+    .skill-box { width: 100%; }
+}
